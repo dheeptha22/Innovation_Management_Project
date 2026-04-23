@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+<div class="logo">🚨 EmergencyHelp</div>
+
+<div class="menu">
+<a href="../index.html">Home</a>
+<a href="user-register.html">User Register</a>
+<a href="volunteer-register.html">Volunteer</a>
+</div>
+</div>
+
+<!-- LOGIN FORM -->
+<div class="form-container">
+<div class="form-card">
+
+<h2>Login</h2>
+<p style="color:#555;">Access your emergency dashboard</p>
+
+<label>Phone Number</label>
+<input id="phone" placeholder="Enter your phone number">
+
+<button onclick="loginUser()">Login</button>
+
+<div id="result"></div>
+
+<p style="margin-top:15px;">
+New user?
+<a href="user-register.html">Register here</a>
+</p>
+
+</div>
+</div>
+
+<script src="../js/app.js"></script>
+
+</body>
+</html>

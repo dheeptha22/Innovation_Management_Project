@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User Registration</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+<div class="logo">🚨 EmergencyHelp</div>
+
+<div class="menu">
+<a href="../index.html">Home</a>
+<a href="login.html">Login</a>
+</div>
+</div>
+
+<!-- FORM -->
+<div class="form-container">
+<div class="form-card">
+
+<h2>Create User Account</h2>
+<p style="color:#555;">Register to access emergency services</p>
+
+<label>Full Name</label>
+<input id="uname" placeholder="Enter your name">
+
+<label>Phone Number</label>
+<input id="uphone" placeholder="Enter your phone number">
+
+<label>Upload Photo</label>
+<input type="file" id="uphoto">
+
+<button onclick="registerUser()">Register</button>
+
+<div id="result"></div>
+
+<p style="margin-top:15px;">
+Already have an account?
+<a href="login.html">Login</a>
+</p>
+
+</div>
+</div>
+
+<script src="../js/app.js"></script>
+
+</body>
+</html>

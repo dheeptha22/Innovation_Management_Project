@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Emergency Dashboard</title>
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+
+<div class="logo">🚨 EmergencyHelp</div>
+
+<div class="menu">
+<a href="../index.html">Home</a>
+<a href="#" onclick="logout()">Logout</a>
+</div>
+
+</div>
+
+<!-- DASHBOARD -->
+<div class="form-container">
+
+<div class="form-card">
+
+<h2>Emergency Dashboard</h2>
+
+<!-- USER PROFILE -->
+<div id="userInfo"></div>
+
+<br>
+
+<p style="color:#555;">
+If you are in danger, press the SOS button below.
+</p>
+
+<!-- SOS BUTTON -->
+<button onclick="sendSOS()" class="sos">🚨 SEND SOS</button>
+
+<br><br>
+
+<!-- STATUS -->
+<p id="status" style="color:#1d3557; font-weight:bold;"></p>
+
+</div>
+
+</div>
+
+<!-- JS -->
+<script src="../js/app.js"></script>
+
+<script>
+loadUser();
+</script>
+
+</body>
+</html>
