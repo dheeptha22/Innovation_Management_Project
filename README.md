@@ -12,36 +12,36 @@ The project is developed using **HTML, CSS, and JavaScript**, and uses browser *
 
 ### 🔄 System Flow
 
-User opens website
-⬇
-Registers an account
-⬇
-Logs into the system
-⬇
-Accesses emergency dashboard
-⬇
-🚨 Presses SOS button
-⬇
+User opens website <br>
+⬇ <br>
+Registers an account <br>
+⬇ <br>
+Logs into the system <br>
+⬇ <br>
+Accesses emergency dashboard <br>
+⬇ <br>
+🚨 Presses SOS button <br>
+⬇ <br>
 📞 Volunteer is contacted instantly
 
 ---
 
 ### 🎯 Key Highlights
 
-✔ Simple and user-friendly interface
-✔ One-click emergency response system
-✔ Works even without internet (call-based fallback)
-✔ Fast and lightweight implementation
+✔ Simple and user-friendly interface <br>
+✔ One-click emergency response system <br>
+✔ Works even without internet (call-based fallback) <br>
+✔ Fast and lightweight implementation <br>
 ✔ Real-world problem-solving approach
 
 ---
 
 ### 🚀 Future Enhancements
 
-• 📍 Nearest volunteer detection using GPS
-• 🗺 Integration with maps for live tracking
-• 🔔 Real-time notifications and alerts
-• ☁ Backend integration with database
+• 📍 Nearest volunteer detection using GPS <br>
+• 🗺 Integration with maps for live tracking <br>
+• 🔔 Real-time notifications and alerts <br>
+• ☁ Backend integration with database <br>
 • 📱 Mobile application development
 
 ---
